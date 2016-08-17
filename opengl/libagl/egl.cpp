@@ -1142,6 +1142,10 @@ static status_t getConfigFormatInfo(EGLint configID,
         pixelFormat = GGL_PIXEL_FORMAT_A_8;
         depthFormat = GGL_PIXEL_FORMAT_Z_16;
         break;
+    case 8:
+        pixelFormat = GGL_PIXEL_FORMAT_BGRA_8888;
+        depthFormat = 0;
+        break;
     default:
         return NAME_NOT_FOUND;
     }
