@@ -1059,7 +1059,7 @@ static configs_t const gConfigs[] = {
         { config_5_attribute_list, NELEM(config_5_attribute_list) },
         { config_6_attribute_list, NELEM(config_6_attribute_list) },
         { config_7_attribute_list, NELEM(config_7_attribute_list) },
-        { config_8_attribute_list, NELEM(config_7_attribute_list) },
+        { config_8_attribute_list, NELEM(config_8_attribute_list) },
 };
 
 static config_management_t const gConfigManagement[] = {
